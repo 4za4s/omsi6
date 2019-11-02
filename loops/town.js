@@ -24,7 +24,6 @@ function Town(index) {
             this[`lootFrom${varName}`] = 0;
             view.updateRegular(varName, this.index);
         }
-        predict()
     };
 
     this.finishProgress = function(varName, expGain) {
